@@ -20,7 +20,7 @@
  * SOFTWARE.
  */
 using AllocationToolkit.Services.DTOs;
-using AllocationToolkit.Services.Tests.Helpers;
+using AllocationToolkit.TestsHelpers;
 using FluentAssertions;
 using System;
 using Xunit;

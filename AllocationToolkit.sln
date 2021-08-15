@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllocationToolkit.Domain", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllocationToolkit.Domain.Tests", "AllocationToolkit.Domain.Tests\AllocationToolkit.Domain.Tests.csproj", "{503CF7DA-F8EA-4676-9E19-AEA7367FEC79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllocationToolkit.Services", "AllocationToolkit.Services\AllocationToolkit.Services.csproj", "{5C407704-9192-4842-B5E0-888CB94C37B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllocationToolkit.Services", "AllocationToolkit.Services\AllocationToolkit.Services.csproj", "{5C407704-9192-4842-B5E0-888CB94C37B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllocationToolkit.Services.Tests", "AllocationToolkit.Services.Tests\AllocationToolkit.Services.Tests.csproj", "{6A5C3AFF-B108-4A14-B444-D4874CBC7533}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllocationToolkit.Services.Tests", "AllocationToolkit.Services.Tests\AllocationToolkit.Services.Tests.csproj", "{6A5C3AFF-B108-4A14-B444-D4874CBC7533}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AllocationToolkit.TestHelpers", "AllocationToolkit.TestHelpers\AllocationToolkit.TestHelpers.csproj", "{BF999391-ED82-4BDA-B779-31756294F487}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{6A5C3AFF-B108-4A14-B444-D4874CBC7533}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A5C3AFF-B108-4A14-B444-D4874CBC7533}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A5C3AFF-B108-4A14-B444-D4874CBC7533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF999391-ED82-4BDA-B779-31756294F487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF999391-ED82-4BDA-B779-31756294F487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF999391-ED82-4BDA-B779-31756294F487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF999391-ED82-4BDA-B779-31756294F487}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{503CF7DA-F8EA-4676-9E19-AEA7367FEC79} = {3F52990B-2AB3-415E-9EA4-FC180A0EB7E0}
 		{5C407704-9192-4842-B5E0-888CB94C37B5} = {4D359946-578F-4076-A58E-C8D008BA66F6}
 		{6A5C3AFF-B108-4A14-B444-D4874CBC7533} = {3F52990B-2AB3-415E-9EA4-FC180A0EB7E0}
+		{BF999391-ED82-4BDA-B779-31756294F487} = {3F52990B-2AB3-415E-9EA4-FC180A0EB7E0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5ECD2EC0-92D7-44FB-A9D5-98B0646CA1A4}

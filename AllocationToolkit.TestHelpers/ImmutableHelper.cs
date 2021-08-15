@@ -23,7 +23,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace AllocationToolkit.Domain.Tests.Helpers
+namespace AllocationToolkit.TestsHelpers
 {
     public class ImmutableHelper
     {
