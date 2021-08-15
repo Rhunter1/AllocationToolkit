@@ -21,8 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AllocationToolkit.Domain\AllocationToolkit.Domain.csproj" />
-    <ProjectReference Include="..\AllocationToolkit.TestHelpers\AllocationToolkit.TestHelpers.csproj" />
+    <ProjectReference Include="..\Domain\AllocationToolkit.Domain.csproj" />
+    <ProjectReference Include="..\TestHelpers\AllocationToolkit.TestHelpers.csproj" />
   </ItemGroup>
 
 </Project>
