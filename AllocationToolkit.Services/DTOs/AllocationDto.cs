@@ -24,7 +24,7 @@ using System.Collections.Generic;
 
 namespace AllocationToolkit.Services.DTOs
 {
-    public class AllocationDto : IEntity
+    public record AllocationDto : IEntity
     {
         /// <summary>
         /// Gets the identifier for the <see cref="AllocationDto"/>.
