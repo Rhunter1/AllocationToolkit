@@ -20,42 +20,14 @@
  * SOFTWARE.
  */
 using System;
-using System.Collections.Generic;
 
 namespace AllocationToolkit.Services.DTOs
 {
-    public class AllocationDto : IEntity
+    public interface IEntity
     {
         /// <summary>
-        /// Gets the identifier for the <see cref="AllocationDto"/>.
+        /// Gets the identifier for the <see cref="IEntity"/>.
         /// </summary>
         public Guid Id { get; init; }
-        /// <summary>
-        /// Gets the user identifier associated with the <see cref="AllocationDto"/>.
-        /// </summary>
-        public Guid UserId { get; init; }
-        /// <summary>
-        /// Gets the sales item identifier associated with the <see cref="AllocationDto"/>.
-        /// </summary>
-        public Guid SalesItemId { get; init; }
-
-        /// <summary>
-        /// Gets the quantity of items that have been allocated.
-        /// </summary>
-        public uint AllocatedQuantity { get; init; }
-        /// <summary>
-        /// Gets the quantity of items that have been paid for.
-        /// </summary>
-        public uint PaidQuantity { get; init; }
-        /// <summary>
-        /// Gets the quantity of items that have been sent.
-        /// </summary>
-        public uint SentQuantity { get; init; }
-
-        /// <summary>
-        /// Gets the <see cref="AllocationDto"/> request date.
-        /// </summary>
-        public DateTime RequestedDate { get; init; } = new DateTime(2019, 1, 1);
-
     }
 }

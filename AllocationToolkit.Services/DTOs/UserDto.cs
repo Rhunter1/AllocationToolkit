@@ -23,7 +23,7 @@ using System;
 
 namespace AllocationToolkit.Services.DTOs
 {
-    public record UserDto
+    public record UserDto: IEntity
     {
         /// <summary>
         /// Gets the <see cref="UserDto"/> identifier.

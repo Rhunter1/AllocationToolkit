@@ -51,6 +51,18 @@ namespace AllocationToolkit.Services.Tests.DTOs
             isImmutable.Should().BeTrue();
         }
 
+        [Fact]
+        public void AllocationItemDto_InheritsFromIEntity()
+        {
+            // Arrange
+            _sut = new();
+
+            // Act
+
+            // Assert
+            _sut.Should().BeAssignableTo<IEntity>();
+        }
+
         #endregion
 
         #region Property Tests

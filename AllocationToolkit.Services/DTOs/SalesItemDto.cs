@@ -27,7 +27,7 @@ namespace AllocationToolkit.Services.DTOs
     /// <summary>
     /// Represents a set of items to sell.
     /// </summary>
-    public record SalesItemDto
+    public record SalesItemDto : IEntity
     {
         /// <summary>
         /// Gets the identifier for the <see cref="SalesItemDto"/>.

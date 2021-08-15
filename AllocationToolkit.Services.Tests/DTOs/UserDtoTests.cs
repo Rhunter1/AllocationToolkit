@@ -39,7 +39,7 @@ namespace AllocationToolkit.Services.Tests.DTOs
 
         #region Class Tests
         [Fact]
-        public void User_IsImmutable()
+        public void UserDto_IsImmutable()
         {
             // Arrange
             _sut = new();
@@ -49,6 +49,18 @@ namespace AllocationToolkit.Services.Tests.DTOs
 
             // Assert
             isImmutable.Should().BeTrue();
+        }
+
+        [Fact]
+        public void UserDto_InheritsFromIEntity()
+        {
+            // Arrange
+            _sut = new();
+
+            // Act
+
+            // Assert
+            _sut.Should().BeAssignableTo<IEntity>();
         }
 
         #endregion
